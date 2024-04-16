@@ -18,6 +18,7 @@ export default defineConfig({
     }),
   ],
   transformers: [transformerDirectives()],
+  safelist: ["saturate-150", "saturate-250"],
   rules: [
     [/ratio-(\d+)/, ([, n]) => ({ "aspect-ratio": `1 / ${n}` })],
     [/opac-(.+)/, ([, value]) => ({ opacity: value })],

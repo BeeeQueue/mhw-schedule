@@ -20,7 +20,7 @@ const current = addWeeks(base, -2)
 
 const items: Date[] = []
 
-for (let i = 0; i < 30; i++) {
+for (let i = 0; i < 15; i++) {
   items.push(addWeeks(base, i * 2))
 }
 </script>
