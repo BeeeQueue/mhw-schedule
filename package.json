@@ -16,6 +16,10 @@
     "typecheck": "svelte-check",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "date-fns": "3.6.0",
+    "svelte": "4.2.14"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "2.14.0",
     "@sveltejs/vite-plugin-svelte": "3.1.0",
@@ -58,9 +62,5 @@
     "*.{js,jsx,ts,tsx,json,json5,yaml,yml,css,scss,md}": [
       "prettier --write"
     ]
-  },
-  "dependencies": {
-    "date-fns": "3.6.0",
-    "svelte": "4.2.14"
   }
 }
