@@ -13,16 +13,12 @@ export default defineConfig({
     presetWebFonts({
       fonts: {
         sans: { name: "Sentient", provider: "fontshare" },
-        serif: { name: "Amulya", provider: "fontshare" },
       },
     }),
   ],
   transformers: [transformerDirectives()],
   safelist: ["saturate-150", "saturate-250"],
   rules: [
-    [/ratio-(\d+)/, ([, n]) => ({ "aspect-ratio": `1 / ${n}` })],
-    [/opac-(.+)/, ([, value]) => ({ opacity: value })],
-    [/trans-(.+)/, ([, name]) => ({ "view-transition-name": name })],
     [
       /text-outline-(.+)-(.+)/,
       ([, width, color]) => ({

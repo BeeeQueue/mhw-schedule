@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@9.0.0",
+  "packageManager": "pnpm@9.0.2",
   "author": "BeeeQueue <adam@haglund.dev>",
   "license": "MIT",
   "engines": {
@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "date-fns": "3.6.0",
-    "svelte": "4.2.14"
+    "svelte": "4.2.15"
   },
   "devDependencies": {
     "@antfu/eslint-config": "2.14.0",
@@ -30,6 +30,7 @@
     "eslint": "8.57.0",
     "eslint-define-config": "2.1.0",
     "eslint-plugin-svelte": "2.37.0",
+    "lightningcss": "1.24.1",
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "simple-git-hooks": "2.11.1",
