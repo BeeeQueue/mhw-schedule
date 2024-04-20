@@ -3,7 +3,7 @@
   "type": "module",
   "version": "0.0.0",
   "private": true,
-  "packageManager": "pnpm@9.0.2",
+  "packageManager": "pnpm@9.0.4",
   "author": "BeeeQueue <adam@haglund.dev>",
   "license": "MIT",
   "engines": {
@@ -25,7 +25,7 @@
     "@sveltejs/vite-plugin-svelte": "3.1.0",
     "@tsconfig/strictest": "2.0.5",
     "@tsconfig/svelte": "5.0.4",
-    "@unocss/reset": "0.59.3",
+    "@unocss/reset": "0.59.4",
     "dotenv": "16.4.5",
     "eslint": "8.57.0",
     "eslint-define-config": "2.1.0",
@@ -36,8 +36,8 @@
     "simple-git-hooks": "2.11.1",
     "svelte-check": "3.6.9",
     "typescript": "5.4.5",
-    "unocss": "0.59.3",
-    "vite": "5.2.9"
+    "unocss": "0.59.4",
+    "vite": "5.2.10"
   },
   "pnpm": {
     "overrides": {
