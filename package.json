@@ -34,7 +34,7 @@
     "lint-staged": "15.2.2",
     "prettier": "3.2.5",
     "simple-git-hooks": "2.11.1",
-    "svelte-check": "3.7.0",
+    "svelte-check": "3.7.1",
     "typescript": "5.4.5",
     "unocss": "0.59.4",
     "vite": "5.2.11"
